@@ -240,7 +240,7 @@ var selectPolomolok = $("select#selectPolomolok").val();
 var polomolokBrgy = $("select#boardPolomolok").val();
 	$.ajax({
 		type: "GET",
-		url: "REGION_XII_SOUTH_COTABATO_POLOMOLOK_"+polomolokBrgy+".json",
+		url: "polomolok/REGION_XII_SOUTH_COTABATO_POLOMOLOK_"+polomolokBrgy+".json",
 				datatype: "json",
 				async: false,
 				success: function(data){
