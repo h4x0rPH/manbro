@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body {
+    padding-top: 30px;
+	background-color: #444;
+	
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color:#FFF;
+  font-family:sans-serif;
+  font-size:1.3em;
+  margin-bottom:0;
+}
+/* All animations will take twice as long to finish */
+:root {
+  --animate-duration: 2s;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {  
+		margin-bottom: 20px;
+		width: 350px;
+		font-family: "Roboto", sans-serif;
+		font-size: 13px;
+		font-weight: 600;
+		box-shadow: 2px 2px 5px #000;
+		font-style: normal;
+		font-variation-settings:
+		"wdth" 100;
+  th, td {
+    padding:.25em .5em;
+    text-align:left;
+    &:nth-child(1) {
+      text-align:l;
+    }
+  }
+  .red {color:#F00;}
+  td {
+    background-color:rgba(40,40,40,0.75);
+	border-bottom: 1px solid #444;
+	color: #fff;
+  }
+  th {
+    background-color:#000;
+	border-top: 2px solid #f00;
+    color:#fff;
+  }
+}
+.name{
+text-align: left;
+}
+
+.votes{
+text-align: right;
+color: #fFF;
+}
+select {
+		display: block;
+		font-family: "Oswald", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 700;
+		font-style: normal;
+		margin-left: 0px;
+		margin-right: 0;
+		margin-bottom: 2px;
+		width: 350px;
+  		height: 34px;
+		font-family: "Roboto", sans-serif;
+		font-size: 13px;
+		font-weight: 600;
+		box-shadow: 2px 2px 5px #000;
+		font-style: normal;
+		font-variation-settings:
+	}
+#selectPolomolok{visibility: hidden;}
+#boardPolomolok{visibility: hidden;}
+#board{visibility: hidden;}
+#selectTupi{visibility: hidden;}
+#boardTupi{visibility: hidden;}
+#selectTampakan{visibility: hidden;}
+#boardTampakan{visibility: hidden;}
+#tablePolomolok{visibility: hidden;}
+#tableTupi{visibility: hidden;}
+#tableTampakan{visibility: hidden;}
+
+#selectPolomolok{display: none;}
+#boardPolomolok{display: none;}
+#board{display: none;}
+#selectTupi{display: none;}
+#boardTupi{display: none;}
+#selectTampakan{display: none;}
+#boardTampakan{display: none;}
+#tablePolomolok{display: none;}
+#tableTupi{display: none;}
+#tableTampakan{display: none;}
+p{
+line-height:1;
+margin: 0;
+padding: 0;
+color: #fff;
+}
