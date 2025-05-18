@@ -33,6 +33,7 @@ Election result in selected municipality by barangay
 ## Demo
 [DEMO LINK](https://h4x0rph.github.io/manbro/)
 
+![image](https://github.com/h4x0rPH/manbro/h4x0rph.png)
 
 ## Authors
 
