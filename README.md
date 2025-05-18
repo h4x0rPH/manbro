@@ -3,69 +3,32 @@
 
 Election result in selected municipality by barangay
 
-## POLOMOLOK
-| # | BARANGAY |
-| --| -------- |
-| 1  | BENTUNG |
-| 2  | CANNERY SITE |
-| 3  | CROSSING PALKAN |
-| 4  | GLAMANG |
-| 5  | KINILIS |
-| 6  | KLINAN 6 |
-| 7  | KORONADAL PROPER |
-| 8  | LAM-CALIAF |
-| 9  | LANDAN |
-| 10  | LAPU |
-| 11  | LUMAKIL |
-| 12  | MAGSAYSAY |
-| 13  | MALIGO |
-| 14  | PAGALUNGAN |
-| 15  | PALKAN |
-| 16  | POBLACION |
-| 17  | POLO |
-| 18  | RUBBER |
-| 19  | SILWAY 7 |
-| 20  | SILWAY 8 |
-| 21  | SULIT |
-| 22  | SUMBAKIL |
-| 23  | UPPER KLINAN |
-
-
-## TUPI
-
-## TAMPAKAN
-
-## API Reference
-
-#### Get all barangay item
-
-```http
-  GET /REGION_XII_SOUTH_COTABATO_MUNICIPAL_BARANGAY.json
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api` | `string` | **Required**. No Api Key Required |
-
-#### Get municipal item
-
-```http
-  GET /REGION_XII_SOUTH_COTABATO_MUNICIPAL.json
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
-
-## Appendix
-
-
-
+## MUNICIPALITY OF
+| # | POLOMOLOK | TUPI  | TAMPAKAN |
+| --| -------- | -------- | -------- |
+| 1  | BENTUNG | ACMONAN | ALBAGAN |
+| 2  | CANNERY SITE | BOLOLMALA | BUTO |
+| 3  | CROSSING PALKAN | BUNAO |
+| 4  | GLAMANG | CEBUANO | DANLAG |
+| 5  | KINILIS | CROSSING RUBBER | KIPALBIG |
+| 6  | KLINAN 6 | JUAN-LORETO TAMAYO | LAMBAYONG |
+| 7  | KORONADAL PROPER | KABLON | LAMPITAK |
+| 8  | LAM-CALIAF | KALKAM | LIBERTY |
+| 9  | LANDAN | LINAN | MALTANA |
+| 10  | LAPU | LUNEN | PALO |
+| 11  | LUMAKIL | MIASONG | POBLACION |
+| 12  | MAGSAYSAY | PALIAN | PULA-BATO |
+| 13  | MALIGO | POBLACION | SAN ISIDRO |
+| 14  | PAGALUNGAN | POLONULING | SANTA CRUZ |
+| 15  | PALKAN | SIMBO | TABLU |
+| 16  | POBLACION | TUBENG | |
+| 17  | POLO | | |
+| 18  | RUBBER | | |
+| 19  | SILWAY 7 | | |
+| 20  | SILWAY 8 | | |
+| 21  | SULIT | | |
+| 22  | SUMBAKIL | | |
+| 23  | UPPER KLINAN | | |
 
 ## Authors
 
