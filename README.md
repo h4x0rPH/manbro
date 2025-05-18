@@ -34,6 +34,12 @@ Election result in selected municipality by barangay
 [DEMO LINK](https://h4x0rph.github.io/manbro/)
 
 
+## Authors
+
+- [@h4x0rPH](https://www.github.com/H4x0rPH)
+- [@manbro](https://www.fb.com/eugeneines)
+
+
 ## Acknowledgements
 
  - [GMA NEWS NETWORK](https://www.gmanetwork.com/news/eleksyon/2025/)
@@ -47,8 +53,4 @@ Election result in selected municipality by barangay
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-
-## Authors
-
-- [@eugeneines](https://www.github.com/H4x0rPH)
 
