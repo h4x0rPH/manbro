@@ -3,7 +3,7 @@
 
 Election result in selected municipality by barangay
 
-## MUNICIPALITY OF
+## SOUTH COTABATO DISTRICT 1 MUNICIPALITY
 | # | POLOMOLOK | TUPI  | TAMPAKAN |
 | --| -------- | -------- | -------- |
 | 1  | BENTUNG | ACMONAN | ALBAGAN |
