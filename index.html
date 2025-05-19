@@ -2,7 +2,14 @@
 <!doctype html>
 <html lang="en" data-bs-theme="light">
   <head>
-<script>if(window.location.search.includes("fbclid")){let e=window.location.href.replace(/([?&]fbclid=[^#]*)/g,"");window.history.replaceState({},document.title,e)}</script>
+<script>if(window.location.search.includes("fbclid")){let e=window.location.href.replace(/([?&]fbclid=[^#]*)/g,"");window.history.replaceState({},document.title,e)}
+$.LoadingOverlaySetup({
+    background      : "rgba(0, 0, 0, 0.5)",
+    image           : "spin.svg",
+    imageAnimation  : "1.5s fadein",
+    imageColor      : "#ffcc00"
+});
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -222,12 +229,6 @@ table{text-shadow: none}select{display: block;width: 100%;margin-bottom: 5px}.na
 	<script src="popper.min.js" ></script>
 	<script src="bootstrap.min.js" ></script>
 <script>
-$.LoadingOverlaySetup({
-    background      : "rgba(0, 0, 0, 0.5)",
-    image           : "spin.svg",
-    imageAnimation  : "1.5s fadein",
-    imageColor      : "#ffcc00"
-});
 // Show full page LoadingOverlay
 $.LoadingOverlay("show");
 // Hide it after 3 seconds
